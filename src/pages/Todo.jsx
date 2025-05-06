@@ -7,7 +7,7 @@ const Todo = () => {
  
   
   function posts(){
-    axios.post("http://localhost:3000/posts",{ todo })
+    axios.post("http://localhost:5000/api/post",{ todo })
     .then(() => {
       alert('Data is stored properly');
     }).catch(() => {

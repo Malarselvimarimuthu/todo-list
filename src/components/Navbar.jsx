@@ -8,10 +8,7 @@ const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
   return (
     <div className='navbar'>
-        <div className='logo'>
-            {/* <img src="" alt="" /> */}
-        </div>
-        
+       
       <div className="hamburger" onClick={() => setIsOpen(!isOpen)}>
          <GiHamburgerMenu/>
       </div>
